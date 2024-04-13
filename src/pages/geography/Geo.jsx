@@ -6,7 +6,7 @@ import { geo } from "./world_countries";
 const Geo = ({ isDashboard = false }) => {
   const theme = useTheme();
   return (
-    <>
+    <div>
       <Box
         sx={{
           height: isDashboard ? "300px" : "75vh",
@@ -234,7 +234,7 @@ const Geo = ({ isDashboard = false }) => {
           }
         />
       </Box>
-    </>
+    </div>
   );
 };
 
