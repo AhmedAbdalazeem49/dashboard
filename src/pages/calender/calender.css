@@ -1,0 +1,30 @@
+b {
+  margin-right: 3px;
+}
+
+.demo-app {
+  display: flex;
+  gap: 13px;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .demo-app {
+    flex-direction: column;
+  }
+
+  .demo-app-main {
+    width: 100%;
+  }
+}
+
+.sidebar {
+  padding: 2em;
+}
+
+.demo-app-main {
+  flex-grow: 1;
+  padding: 3em;
+}
